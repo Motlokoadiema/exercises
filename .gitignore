@@ -1,0 +1,13 @@
+# Ignore Maven build inputs (compiled binaries, local artifacts)
+target/
+
+# Ignore local IDE settinga (VS Code settings and workspace states)
+.settings/
+.project
+.classpath
+.factorypath
+.vscode/
+
+# Ignore OS-specific files
+Thumbs.db
+.DS_Store
